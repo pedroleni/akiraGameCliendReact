@@ -1,0 +1,18 @@
+{
+    "routes": [
+        { "src": "/", "dest": "/" },
+        { "src": "/game", "dest": "/" },
+        { "src": "/video", "dest": "/" },
+        { "src": "/game/:id", "dest": "/" },
+        { "src": "/freetoplay", "dest": "/" },
+        { "src": "/freetoplay/:id", "dest": "/" },
+        { "src": "/posts", "dest": "/" },
+        { "src": "/posts/:id", "dest": "/" },
+        { "src": "/platforms", "dest": "/" },
+        { "src": "/register", "dest": "/" },
+        { "src": "/login", "dest": "/" },
+        { "src": "/profile", "dest": "/" },
+        { "src": "/[^.]+", "dest": "/", "status": 200 }
+    
+    ]
+  }

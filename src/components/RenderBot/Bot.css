@@ -1,0 +1,7 @@
+.renderContainer {
+	position: fixed;
+	z-index: 25;
+	bottom: 67px;
+	right: 84px;
+	display: none;
+}

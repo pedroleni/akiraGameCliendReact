@@ -1,0 +1,70 @@
+@font-face {
+	font-family: BikoBold;
+	src: url('/public/assets/fonts/Biko_Bold.otf');
+}
+
+.imageCardArticulo {
+	width: 467px;
+}
+
+.content_container_articulo {
+	padding: 20px;
+	font-size: 16px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 10px;
+}
+
+.typeArticuloText {
+	text-align: left;
+	color: rgb(223, 48, 48);
+	font-size: 12px;
+	font-family: BikoBold;
+	text-transform: uppercase;
+}
+
+.titlePost {
+	font-family: BikoBold;
+	font-size: 30px;
+}
+
+.articulo_card {
+	width: 90%;
+	height: 280px;
+	display: flex;
+	align-items: center;
+}
+
+@media (max-width: 1183px) {
+	.content_container_articulo {
+		font-size: 12px;
+	}
+	.titlePost {
+		font-size: 24px;
+	}
+	.imageCardArticulo {
+		width: 267px;
+		padding: 10px;
+	}
+}
+
+@media (max-width: 650px) {
+	.content_container_articulo {
+		font-size: 12px;
+	}
+	.titlePost {
+		font-size: 24px;
+	}
+	.imageCardArticulo {
+		width: 267px;
+		padding: 10px;
+	}
+	.articulo_card {
+		width: 90%;
+		height: 466px;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+}
