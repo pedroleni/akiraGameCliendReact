@@ -21,6 +21,7 @@ import FreeDetail from './Pages/FreeDetail/FreeDetail';
 import PostDetail from './Pages/PostDetail/PostDetail';
 import VideoGallery from './Pages/VideoGallery/VideoGallery';
 import Headerf from './components/Headerf/Headerf';
+import Minigames from './Pages/Minigames/Minigames';
 
 function App() {
 	const [themePovide, setThemeProvide] = useState(themeDark);
@@ -52,6 +53,7 @@ function App() {
 						<Route path='/register' element={<Register />} />
 						<Route path='/login' element={<Login />} />
 						<Route path='/profile' element={<Profile />} />
+						<Route path='/play' element={<Minigames />} />
 					</Routes>
 					<Footer height={'30px'} width={'30px'} />
 				</Router>

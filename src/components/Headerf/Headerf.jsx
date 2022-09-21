@@ -155,11 +155,17 @@ const Headerf = ({ toggleTheme }) => {
 									{user ? (
 										<>
 											<div className='Play'>
-												<ButtonDespegable height={'30px'} width={'30px'}>
-													<H1Custom>
-														<BsPlayFill />
-													</H1Custom>
-												</ButtonDespegable>
+												<Link to='/play'>
+													<button
+														className='btnPlay'
+														height={'30px'}
+														width={'30px'}
+													>
+														<H1Custom>
+															<BsPlayFill />
+														</H1Custom>
+													</button>
+												</Link>
 											</div>
 											<p className='welcome'>Welcome {user.name}</p>
 											<div className='container_imagen_logout'>
@@ -190,13 +196,16 @@ const Headerf = ({ toggleTheme }) => {
 										</>
 									) : (
 										<>
-											<div className='Play'>
-												<ButtonDespegable height={'30px'} width={'30px'}>
-													<H1Custom>
-														<BsPlayFill />
-													</H1Custom>
-												</ButtonDespegable>
-											</div>
+											{' '}
+											<Link to='/play'>
+												<div className='Play'>
+													<ButtonDespegable height={'30px'} width={'30px'}>
+														<H1Custom>
+															<BsPlayFill />
+														</H1Custom>
+													</ButtonDespegable>
+												</div>
+											</Link>
 											<ul>
 												<div onClick={toggleSidenav}>
 													<ButtonStyle
