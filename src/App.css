@@ -32,6 +32,10 @@
 	margin: 4px;
 }
 
+#subTitleMain2 {
+	display: none;
+}
+
 .Play {
 	margin: 0px 10px 0 10px;
 }
@@ -143,6 +147,7 @@
 .TitleHero {
 	font-family: 'Kiona';
 	font-size: 35px;
+	margin-bottom: 20px;
 }
 
 .imgGamesContnainer {
@@ -522,12 +527,16 @@ iframe {
 
 /* ---------- MEDIA QUERIES --------- */
 
-@media (max-width: 1142px) {
+@media (max-width: 1200px) {
+	.Play {
+		display: none;
+	}
 	.linkado {
 		padding: 25px;
 	}
 	.chat {
 		padding: 16px;
+		display: none;
 	}
 	.switchdiv {
 		margin-bottom: 10px;
@@ -597,6 +606,9 @@ iframe {
 }
 
 @media (max-width: 900px) {
+	.chat {
+		display: none;
+	}
 	.linkado {
 		padding: 20px;
 	}
@@ -617,11 +629,16 @@ iframe {
 }
 
 @media (max-width: 700px) {
+	.postCard {
+		width: 161px;
+		height: 200px;
+	}
 	.linkado {
 		padding: 15px;
 	}
 	.chat {
 		padding: 15px;
+		display: none;
 	}
 
 	.comentarioMSGContainer {
@@ -661,7 +678,7 @@ iframe {
 	}
 	.backTitlePostMAIN {
 		font-size: 16px;
-		padding-left: 54px;
+		padding-left: 30px;
 	}
 	.backTitlePost {
 		display: none;

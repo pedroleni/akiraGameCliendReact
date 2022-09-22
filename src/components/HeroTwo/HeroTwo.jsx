@@ -67,26 +67,28 @@ const HeroTwo = () => {
 				</div>
 				<div className='CardPostHero'>
 					<div className='leftPosts'>
-						<Imagen
-							className='postCard'
-							src={
-								'https://res.cloudinary.com/dq186ej4c/image/upload/v1663338577/game/pzzhvexigs1lrjr0rjpt.jpg'
-							}
-							aspectRatio={'16:9'}
-							height={'370px'}
-							width={'650px'}
-							borderRadius={'15px'}
-						>
-							<div style={{ top: '60%', left: '0' }}>
-								<h2 className='backTitlePostMAIN'>
-									he Last of Us Part 1 Uses PlayStation 5 Haptic Feedback to
-									Help Deaf Gamers
-								</h2>
-								<p className='backTitlePost'>
-									he PS5 remake improves accessibility in unique ways.
-								</p>
-							</div>
-						</Imagen>
+						<Link to={'/posts/63248851170464a04997497f'}>
+							<Imagen
+								className='postCard'
+								src={
+									'https://res.cloudinary.com/dq186ej4c/image/upload/v1663338577/game/pzzhvexigs1lrjr0rjpt.jpg'
+								}
+								aspectRatio={'16:9'}
+								height={'370px'}
+								width={'650px'}
+								borderRadius={'15px'}
+							>
+								<div style={{ top: '60%', left: '0' }}>
+									<h2 className='backTitlePostMAIN'>
+										he Last of Us Part 1 Uses PlayStation 5 Haptic Feedback to
+										Help Deaf Gamers
+									</h2>
+									<p className='backTitlePost'>
+										he PS5 remake improves accessibility in unique ways.
+									</p>
+								</div>
+							</Imagen>
+						</Link>
 					</div>
 					<div className='rightPosts'>
 						<div className='columRight'>

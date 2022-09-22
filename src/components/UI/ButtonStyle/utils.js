@@ -20,7 +20,7 @@ export const getVariants = (theme, variant) => {
 	}
 };
 
-const getSmallVariant = theme => ({
+const getSmallVariant = (theme) => ({
 	width: theme.spacing(12.5),
 	backgroundColor: theme.palette.secondary.main,
 	borderRadius: theme.spacing(1.5),
@@ -34,7 +34,7 @@ const getSmallVariant = theme => ({
 // cambiar fuente
 // cambiar hover
 
-const getMediumVariant = theme => ({
+const getMediumVariant = (theme) => ({
 	width: theme.spacing(18.7),
 	backgroundColor: theme.palette.secondary.main,
 	borderRadius: theme.spacing(1.5),
@@ -46,7 +46,7 @@ const getMediumVariant = theme => ({
 	},
 });
 
-const getLargeVariant = theme => ({
+const getLargeVariant = (theme) => ({
 	width: theme.spacing(25),
 	backgroundColor: theme.palette.secondary.main,
 	borderRadius: theme.spacing(1.5),
@@ -58,7 +58,7 @@ const getLargeVariant = theme => ({
 	},
 });
 
-const getExtralargeVariant = theme => ({
+const getExtralargeVariant = (theme) => ({
 	width: theme.spacing(31.2),
 	backgroundColor: theme.palette.secondary.main,
 	borderRadius: theme.spacing(1.5),
@@ -72,7 +72,7 @@ const getExtralargeVariant = theme => ({
 
 // -------- SECONND ----------
 
-const getSmallVariantSecond = theme => ({
+const getSmallVariantSecond = (theme) => ({
 	width: theme.spacing(12.5),
 	backgroundColor: theme.palette.accent.main,
 	borderRadius: theme.spacing(1.5),
@@ -80,13 +80,13 @@ const getSmallVariantSecond = theme => ({
 	padding: '5px',
 	fontFamily: 'Bold',
 	'&:hover': {
-		backgroundColor: theme.palette.accentSecond.main,
+		backgroundColor: theme.palette.secondary.main,
 	},
 });
 // cambiar fuente
 // cambiar hover
 
-const getMediumVariantSecond = theme => ({
+const getMediumVariantSecond = (theme) => ({
 	width: theme.spacing(18.7),
 	backgroundColor: theme.palette.accent.main,
 	borderRadius: theme.spacing(1.5),
@@ -98,7 +98,7 @@ const getMediumVariantSecond = theme => ({
 	},
 });
 
-const getLargeVariantSecond = theme => ({
+const getLargeVariantSecond = (theme) => ({
 	width: theme.spacing(25),
 	backgroundColor: theme.palette.accent.main,
 	borderRadius: theme.spacing(1.5),
@@ -110,7 +110,7 @@ const getLargeVariantSecond = theme => ({
 	},
 });
 
-const getExtralargeVariantSecond = theme => ({
+const getExtralargeVariantSecond = (theme) => ({
 	width: theme.spacing(31.2),
 	backgroundColor: theme.palette.accent.main,
 	borderRadius: theme.spacing(1.5),
