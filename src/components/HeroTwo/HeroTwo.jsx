@@ -17,43 +17,53 @@ const HeroTwo = () => {
 							src='https://media.discordapp.net/attachments/1014491221349109770/1020000708499623986/pngwing.com.png?width=483&height=666'
 							alt=''
 						/>
-						<img
-							className='imgGamesContnainer'
-							src='https://res.cloudinary.com/dq186ej4c/image/upload/v1663321123/game/y1cdrg6iprpowku2dx8w.jpg'
-							alt=''
-						/>
+						<Link to={'/game/632444245ff8047b509b5569'}>
+							<img
+								className='imgGamesContnainer'
+								src='https://res.cloudinary.com/dq186ej4c/image/upload/v1663321123/game/y1cdrg6iprpowku2dx8w.jpg'
+								alt=''
+							/>
+						</Link>
 						{/* <P1Custom>likes</P1Custom> */}
 					</div>
 					<div className='detailCard' id='game2Hero'>
-						<img
-							className='imgGamesContnainer'
-							src='https://res.cloudinary.com/dq186ej4c/image/upload/v1663321369/game/lqfuendkzoqhajpi9uur.jpg'
-							alt=''
-						/>
+						<Link to={'/game/6324451a5ff8047b509b556d'}>
+							<img
+								className='imgGamesContnainer'
+								src='https://res.cloudinary.com/dq186ej4c/image/upload/v1663321369/game/lqfuendkzoqhajpi9uur.jpg'
+								alt=''
+							/>
+						</Link>
 						{/* <P1Custom>likes</P1Custom> */}
 					</div>
 					<div className='detailCard' id='game3Hero'>
-						<img
-							className='imgGamesContnainer'
-							src='https://res.cloudinary.com/dq186ej4c/image/upload/v1663322565/game/vdx78yt5pkmqrt1j0s5q.jpg'
-							alt=''
-						/>
+						<Link to={'/game/632449c55ff8047b509b557b'}>
+							<img
+								className='imgGamesContnainer'
+								src='https://res.cloudinary.com/dq186ej4c/image/upload/v1663322565/game/vdx78yt5pkmqrt1j0s5q.jpg'
+								alt=''
+							/>
+						</Link>
 						{/* <P1Custom>likes</P1Custom> */}
 					</div>
 					<div className='detailCard' id='game4Hero'>
-						<img
-							className='imgGamesContnainer'
-							src='https://res.cloudinary.com/dq186ej4c/image/upload/v1663322746/game/etdvtxbwhkvbim7xobl9.jpg'
-							alt=''
-						/>
+						<Link to={'/game/63244a7b5ff8047b509b557d'}>
+							<img
+								className='imgGamesContnainer'
+								src='https://res.cloudinary.com/dq186ej4c/image/upload/v1663322746/game/etdvtxbwhkvbim7xobl9.jpg'
+								alt=''
+							/>
+						</Link>
 						{/* <P1Custom>likes</P1Custom> */}
 					</div>
 					<div className='detailCard' id='game5Hero'>
-						<img
-							className='imgGamesContnainer'
-							src='https://res.cloudinary.com/dq186ej4c/image/upload/v1663321980/game/hdbszwnof7gnfzqc2iww.jpg'
-							alt=''
-						/>
+						<Link to={'/game/6324477d5ff8047b509b5571'}>
+							<img
+								className='imgGamesContnainer'
+								src='https://res.cloudinary.com/dq186ej4c/image/upload/v1663321980/game/hdbszwnof7gnfzqc2iww.jpg'
+								alt=''
+							/>
+						</Link>
 						{/* <P1Custom>likes</P1Custom> */}
 					</div>
 				</div>
