@@ -262,7 +262,7 @@ header .control {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	gap: 20px;
+	
 }
 
 .main-nav ul li a {
