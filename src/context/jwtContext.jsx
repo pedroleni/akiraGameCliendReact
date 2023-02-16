@@ -3,6 +3,8 @@ import { useState, createContext } from 'react';
 export const JwtContext = createContext();
 
 export const JwtContextProvider = ({ children }) => {
+
+	// esto es una prueba
 	const [jwt, setJwt] = useState(() => {
 		const savedJwt = localStorage.getItem('token');
 		return savedJwt || null;
