@@ -4,7 +4,7 @@ export const JwtContext = createContext();
 
 export const JwtContextProvider = ({ children }) => {
 
-	// esto es una prueba
+	// esto es una 
 	const [jwt, setJwt] = useState(() => {
 		const savedJwt = localStorage.getItem('token');
 		return savedJwt || null;
