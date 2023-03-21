@@ -35,7 +35,7 @@ const Profile = () => {
 		const formData = new FormData();
 		formData.append('nick', data.nick);
 		formData.append('location', data.location);
-
+		console.log("file", data.image[0])
 		// formData.append("searchCouple", data.searchCouple);
 		data.image[0] ? formData.append('image', data.image[0]) : <></>;
 		API.patch(`/user/${user._id}`, formData).then((res) => {
