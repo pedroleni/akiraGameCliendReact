@@ -12,7 +12,7 @@ export const APIHeaders = {
 };
 // https://back-game.herokuapp.com/api/v1
 export const API = axios.create({
-	baseURL: 'https://backgamenodejs-production.up.railway.app/api/v1',
+	baseURL: `${import.meta.env.VITE_BACK_END}/api/v1`,
 	timeout: 10000,
 	headers: APIHeaders,
 });
